@@ -9,8 +9,14 @@
             "email": "zeebz91@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:macnibblet/data-fixtures.git"
+        }
+    ],
     "require": {
-        "doctrine/data-fixtures": "~1.0",
+        "doctrine/data-fixtures": "dev-hotfix/updated-commit-order-calculator",
         "symfony/console": "~2.3"
     },
     "suggest": {
